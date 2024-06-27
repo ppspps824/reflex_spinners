@@ -17,6 +17,8 @@ anyio==4.4.0
     # via httpx
     # via starlette
     # via watchfiles
+backports-tarfile==1.2.0
+    # via jaraco-context
 bidict==0.23.1
     # via python-socketio
 build==1.2.1
@@ -59,6 +61,7 @@ idna==3.7
     # via httpx
     # via requests
 importlib-metadata==8.0.0
+    # via keyring
     # via twine
 jaraco-classes==3.4.0
     # via keyring
@@ -187,7 +190,7 @@ typing-extensions==4.12.2
 urllib3==2.2.2
     # via requests
     # via twine
-uvicorn==0.24.0.post1
+uvicorn==0.20.0
     # via reflex
 watchdog==4.0.1
     # via reflex

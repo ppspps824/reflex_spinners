@@ -1,0 +1,12 @@
+# python generated files
+# venv
+*.db
+*.egg-info
+*.py[cod]
+*.py[oc]
+.venv
+.web
+__pycache__/
+build/
+dist/
+wheels/

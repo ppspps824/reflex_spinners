@@ -11,8 +11,6 @@
 -e file:.
 alembic==1.13.2
     # via reflex
-annotated-types==0.7.0
-    # via pydantic
 anyio==4.4.0
     # via httpx
     # via starlette
@@ -106,13 +104,12 @@ platformdirs==4.2.2
     # via reflex-hosting-cli
 psutil==5.9.8
     # via reflex
-pydantic==2.7.4
+pydantic==1.10.17
     # via fastapi
     # via reflex
     # via reflex-hosting-cli
+    # via reflex-spinners
     # via sqlmodel
-pydantic-core==2.18.4
-    # via pydantic
 pygments==2.18.0
     # via readme-renderer
     # via rich
@@ -184,7 +181,6 @@ typing-extensions==4.12.2
     # via alembic
     # via fastapi
     # via pydantic
-    # via pydantic-core
     # via sqlalchemy
     # via typer
 urllib3==2.2.2

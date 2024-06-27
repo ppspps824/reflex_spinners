@@ -33,15 +33,6 @@ class State(rx.State):
         self.overlay_process = False
 
 
-def SpinnerButton(text, on_click, loading=False, disabled=False):
-    return rx.button(
-        text,
-        rx.spinner(loading=loading),
-        on_click=on_click,
-        disabled=disabled,
-    )
-
-
 def index():
     return rx.box(
         CircleSpinnerOverlay.create(
